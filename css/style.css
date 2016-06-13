@@ -43,7 +43,7 @@
     height:26px;
     border-radius: 13px 13px 13px 13px;
     border-color:white;
-    background-color:azure;
+    background-color:lightgrey;
     display: inline-block;
 }
 
@@ -75,4 +75,14 @@
     height: 480px;
     width: 30px;
     padding-top:230px;
+}
+
+#thumbnail {
+    visibility: hidden;
+    position: absolute;
+    display:block;
+    z-index: 2;
+    width: 128px;
+    height: 96px;
+    border: 1px solid black;
 }
