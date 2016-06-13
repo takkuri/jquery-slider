@@ -8,6 +8,7 @@
     width:640px;
     height:1000px;
     overflow:hidden;
+    border-radius: 15px 15px 0 0;
 }
 
 #frame_photo_reel {
@@ -30,9 +31,25 @@
     width: 640px;
     height: 48px;
     display:block;
-    border-radius: 0 0 5px 5px;
+    border-radius: 0 0 15px 15px;
     top:480px;
     position:relative;
+    padding-left: 130px;
+}
+
+.frame_nav_button {
+    margin: 11px 20px 0 20px;
+    width:26px;
+    height:26px;
+    border-radius: 13px 13px 13px 13px;
+    border-color:white;
+    background-color:azure;
+    display: inline-block;
+}
+
+
+.frame_nav_button:hover {
+    background-color:orange;
 }
 
 #frame_slide_left {
